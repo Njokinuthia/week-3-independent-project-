@@ -26,4 +26,14 @@ function grade ()
 }
 
 
+if (answer>=80){
+  document.write("excellent")
+}
+else if (answer<80 && answer >=50){
+  document.write(" You fairly passed")
+}
+else if (answer <50){
+  document.write("poorly performed")
+}
+
 
