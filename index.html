@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Computer Club</title>
 </head>
 
@@ -35,51 +35,60 @@
     <input type="text" name="Email" placeholder="example@codeschool.co.ke">
   </div>
 
+  <h3>Attempt all questions</h3>
+
 
 
   <!-- Section 3: Questions in the page -->
-  <p> 1) What is JavaScript?</p>
-    <input type="radio" name="num1" id="correct">JavaScript is a text-based programming language used both on the client-side and <br> server-side that allows you to make web pages interactive<br>
-    <input type="radio" name="num1">its a cascading styling<br>
-    <input type="radio" name="num1"> its a scripting language<br>
-    <input type="radio" name="num1"> Menu in a coffee house<br>
+  <div class="box">
+    <p> 1) What is JavaScript?</p>
+      <input type="radio" name="num1" id="correct">JavaScript is a text-based programming language used both on the client-side and <br> server-side that allows you to make web pages interactive<br>
+      <input type="radio" name="num1">its a cascading styling<br>
+      <input type="radio" name="num1"> its a scripting language<br>
+      <input type="radio" name="num1"> Menu in a coffee house<br>
+  </div>
 
-  <P> 2) Which of the following is not a rule applied while naming variables in JS?</P>
-    <input type="radio" name="num2"> Must not contain spaces<br>
-    <input type="radio" name="num2" id="correct">Must start with uppercase letter<br>
-    <input type="radio" name="num2">  Must start with a lowercase letter.<br>
-    <input type="radio" name="num2">  Must use camel casing.<br>
-  
-    <p> 3) What part of the below block of code prints out an output?<br>
-      <span>    
-      var happy = true;<br>while (happy)<br> {<br>console.log("smile");<br>}<br></p>
-    </span>
-      <input type="radio" name="num3">while(happy)<br>
-      <input type="radio" name="num3">console.log("smile");<br>
-      <input type="radio" name="num3" id="correct">true;<br>
-      <input type="radio" name="num3" id="correct">var happy<br>
-    
-    <p> 4) What will the output of the below code of block be?<br>
-      <span>
-        var fruits = ["Apples", "Bananas", "Grapes" , "Oranges"];<br>
-        console.log(fruits.indexOf("Grapes"));<br>
+  <div class="box">
+    <P> 2) Which of the following is not a rule applied while naming variables in JS?</P>
+      <input type="radio" name="num2"> Must not contain spaces<br>
+      <input type="radio" name="num2" id="correct">Must start with uppercase letter<br>
+      <input type="radio" name="num2">  Must start with a lowercase letter.<br>
+      <input type="radio" name="num2">  Must use camel casing.<br>
+  </div>
+
+  <div class="box">
+      <p> 3) What part of the below block of code prints out an output?<br>
+        <span>    
+        var happy = true;<br>while (happy)<br> {<br>console.log("smile");<br>}<br></p>
       </span>
-      <input type="radio" name="num4">Grapes<br>
-      <input type="radio" name="num4">console.log(fruits.indexOf("Grapes"));<br>
-      <input type="radio" name="num4" id="correct">2<br>
-      <input type="radio" name="num4">fruits.indexOf("Grapes")<br>    
-    </p>
+        <input type="radio" name="num3">while(happy)<br>
+        <input type="radio" name="num3">console.log("smile");<br>
+        <input type="radio" name="num3" id="correct">true;<br>
+        <input type="radio" name="num3" id="correct">var happy<br>
+  </div> 
 
-    <p> 5) What is the difference between local and global variables?</p>
-      <input type="radio" name="num5">Global variables are used in all countries of the world while local variables are used in the country you are coding in.<br>
-      <input type="radio" name="num5" id="correct">Global variables can be accessed at any point of the program while local variables are only be accessed where they have been created<br>
-      <input type="radio" name="num5">Local variables can be accessed at any point of the program while global variables are only be accessed where they have been created<br>
-      <input type="radio" name="num5">There is no difference.
+  <div class="box">
+      <p> 4) What will the output of the below code of block be?<br>
+        <span>
+          var fruits = ["Apples", "Bananas", "Grapes" , "Oranges"];<br>
+          console.log(fruits.indexOf("Grapes"));<br>
+        </span>
+        <input type="radio" name="num4">Grapes<br>
+        <input type="radio" name="num4">console.log(fruits.indexOf("Grapes"));<br>
+        <input type="radio" name="num4" id="correct">2<br>
+        <input type="radio" name="num4">fruits.indexOf("Grapes")<br>    
+       </p>
+  </div>
 
-     <p> Bonus Questiion: <br>
-      
-       
-     </p> 
+  <div class="box">
+      <p> 5) What is the difference between local and global variables?</p>
+        <input type="radio" name="num5">Global variables are used in all countries of the world while local variables are used in the country you are coding in.<br>
+        <input type="radio" name="num5" id="correct">Global variables can be accessed at any point of the program while local variables are only be accessed where they have been created<br>
+        <input type="radio" name="num5">Local variables can be accessed at any point of the program while global variables are only be accessed where they have been created<br>
+        <input type="radio" name="num5">There is no difference.
+  </div>
+
+     <p> Are you ready to submit your answers?:</p> 
 
 </body>
 </html>
