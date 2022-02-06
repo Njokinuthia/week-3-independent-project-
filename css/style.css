@@ -1,19 +1,52 @@
+  body{
+    width: 80%;
+    margin:auto; 
+    height: auto;   
+    background-image: url('images/image2.png');
+  }
+  
+  .header{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    border: 1px solid black;
+  }
+
+  .input{
+    margin-top: 2%;
+    margin-bottom: 2%;    
+  }
+ 
  .questions{
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
    width: 90%;
-   border: 1px solid black;
-   
+   border: 1px solid black;   
  }
 
 .box{
   border: 1px solid black;
-  width:80%;
+  width:70%;
   margin:auto;
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-bottom:2%;
   border-radius: 10px;
   box-shadow: 20px;  
+}
+
+span{
+  color:red;
   
-  
+}
+
+
+.footer{
+  text-align: center;
+  border: 1px solid black;
+  width: 90%;
+
 }

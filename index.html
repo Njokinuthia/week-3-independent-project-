@@ -11,30 +11,34 @@
 </head>
 
 <body>  
+ 
+
   <div class="header">
     <!--Section 1: Welcoming candidate to page  -->
-    <h3>Quiz board</h3>
-    <p>Congatulations on learning Java Script!!!</p>
+    <h2>Quiz board</h2>
+    <h1>Congratulations on learning Java Script!!!</h1>
 
     <!--Section 2: Candidate details -->
-    <p>Please input your details below to proceed to the quiz</p>
-    <div>
-      <label for="name"> Full Name*</label><br>
-      <input type="text" name="Fullname" class="candidate" placeholder="Full Name">
-    </div>
+    <h2>Please input your details below then proceed to the quiz</h2>
+    <div class="input">
+      <div class="fill">
+        <label for="name"> Full Name*</label><br>
+        <input type="text" name="Fullname" class="candidate" placeholder="Full Name">
+      </div>
 
-    <div>
-      <label for="">Number of Attempt</label><br>
-      <select name="" id="">
-        <option value="">1st attempt</option>
-        <option value="">2nd attempt</option>
-        <option value="">3rd attempt</option>
-      </select>
-    </div>
+      <div class="fill"> 
+        <label for="">Number of Attempt</label><br>
+        <select name="" id="">
+          <option value="">1st attempt</option>
+          <option value="">2nd attempt</option>
+          <option value="">3rd attempt</option>
+        </select>
+      </div>
 
-    <div>
-      <label for="">Student Email Address*</label><br>
-      <input type="text" name="Email" placeholder="example@codeschool.co.ke">
+      <div class="fill">
+        <label for="">Student Email Address*</label><br>
+        <input type="text" name="Email" placeholder="example@codeschool.co.ke">
+      </div>
     </div>
 
     <h3>Attempt all questions</h3>
@@ -44,7 +48,7 @@
     <!-- Section 3: Questions in the page -->
     <div class="box">
       <p> 1) What is JavaScript?</p>
-        <input type="radio" name="num1" id="correct">JavaScript is a text-based programming language used both on the client-side and <br> server-side that allows you to make web pages interactive<br>
+        <input type="radio" name="num1" id="answer1">JavaScript is a text-based programming language used both on the client-side and <br> server-side that allows you to make web pages interactive<br>
         <input type="radio" name="num1">its a cascading styling<br>
         <input type="radio" name="num1"> its a scripting language<br>
         <input type="radio" name="num1"> Menu in a coffee house<br>
@@ -53,7 +57,7 @@
     <div class="box">
       <P> 2) Which of the following is not a rule applied while naming variables in JS?</P>
         <input type="radio" name="num2"> Must not contain spaces<br>
-        <input type="radio" name="num2" id="correct">Must start with uppercase letter<br>
+        <input type="radio" name="num2" id="answer2">Must start with uppercase letter<br>
         <input type="radio" name="num2">  Must start with a lowercase letter.<br>
         <input type="radio" name="num2">  Must use camel casing.<br>
     </div>
@@ -64,9 +68,9 @@
           var happy = true;<br>while (happy)<br> {<br>console.log("smile");<br>}<br></p>
         </span>
           <input type="radio" name="num3">while(happy)<br>
-          <input type="radio" name="num3">console.log("smile");<br>
-          <input type="radio" name="num3" id="correct">true;<br>
-          <input type="radio" name="num3" id="correct">var happy<br>
+          <input type="radio" name="num3" id="answer3">console.log("smile");<br>
+          <input type="radio" name="num3" >true;<br>
+          <input type="radio" name="num3" >var happy<br>
     </div> 
 
     <div class="box">
@@ -77,7 +81,7 @@
           </span>
           <input type="radio" name="num4">Grapes<br>
           <input type="radio" name="num4">console.log(fruits.indexOf("Grapes"));<br>
-          <input type="radio" name="num4" id="correct">2<br>
+          <input type="radio" name="num4" id="answer4">2<br>
           <input type="radio" name="num4">fruits.indexOf("Grapes")<br>    
         </p>
     </div>
@@ -85,14 +89,21 @@
     <div class="box">
         <p> 5) What is the difference between local and global variables?</p>
           <input type="radio" name="num5">Global variables are used in all countries of the world while local variables are used in the country you are coding in.<br>
-          <input type="radio" name="num5" id="correct">Global variables can be accessed at any point of the program while local variables are only be accessed where they have been created<br>
+          <input type="radio" name="num5" id="answer5">Global variables can be accessed at any point of the program while local variables are only be accessed where they have been created<br>
           <input type="radio" name="num5">Local variables can be accessed at any point of the program while global variables are only be accessed where they have been created<br>
           <input type="radio" name="num5">There is no difference.
     </div>
-
-      <p> Thank you for your time! :) </p> 
-      <button>Click here to submit your answers</button>
-      
   </div>
+
+  <div class=" footer">    
+    <!-- <button>Click here to submit your answers</button> -->
+    <input class="clickHere" type="submit" value="Submit your answers" onclick="grade() ,grade2()">
+    <p> Thank you for your time! :) </p> 
+  </div>  
+  
+  <img src="images/image2.png" alt="pic">
+
+      
+<script src="js/script.js"></script>
 </body>
 </html>
