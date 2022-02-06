@@ -1,4 +1,5 @@
 
+// function to give scores to each question
 function grade ()
 { 
   var sum = 0; 
@@ -25,7 +26,7 @@ function grade ()
   document.write('Your score is' + ' ' + answer);
 }
 
-
+// code to get grade levels
 if (answer>=80){
   document.write("excellent")
 }
@@ -35,5 +36,3 @@ else if (answer<80 && answer >=50){
 else if (answer <50){
   document.write("poorly performed")
 }
-
-
