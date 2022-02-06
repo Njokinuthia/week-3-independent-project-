@@ -1,4 +1,19 @@
-.box{
-  background-color: crimson;
-}
+ .questions{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   width: 90%;
+   border: 1px solid black;
+   
+ }
 
+.box{
+  border: 1px solid black;
+  width:80%;
+  margin:auto;
+  margin-top: 5%;
+  border-radius: 10px;
+  box-shadow: 20px;  
+  
+  
+}
