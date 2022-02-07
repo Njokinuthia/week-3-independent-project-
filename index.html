@@ -19,7 +19,7 @@
     <h1>Congratulations on learning Java Script!!!</h1>
 
     <!--Section 2: Candidate details -->
-    <h2>Please input your details below then proceed to the quiz</h2>
+    <!-- <h2>Please input your details below then proceed to the quiz</h2>
     <div class="input">
       <div class="fill">
         <label for="name"> Full Name*</label><br>
@@ -39,7 +39,7 @@
         <label for="">Student Email Address*</label><br>
         <input type="text" name="Email" placeholder="example@codeschool.co.ke">
       </div>
-    </div>
+    </div> -->
 
     <h3>Attempt all questions</h3>
   </div>
@@ -64,9 +64,15 @@
 
     <div class="box">
         <p> 3) What part of the below block of code prints out an output?<br>
-          <span>    
-          var happy = true;<br>while (happy)<br> {<br>console.log("smile");<br>}<br></p>
-        </span>
+          <div class="code">
+            <span id="first">var happy = true;<br></span>  
+            <span>while (happy)<br></span>
+            <span>{<br></span>
+            <span>console.log("smile");<br></span>
+            <span>}<br></span>
+        </div>
+        </p>
+        
           <input type="radio" name="num3">while(happy)<br>
           <input type="radio" name="num3" id="answer3">console.log("smile");<br>
           <input type="radio" name="num3" >true;<br>
@@ -75,10 +81,11 @@
 
     <div class="box">
         <p> 4) What will the output of the below code of block be?<br>
-          <span>
-            var fruits = ["Apples", "Bananas", "Grapes" , "Oranges"];<br>
-            console.log(fruits.indexOf("Grapes"));<br>
-          </span>
+          <div class="code">
+            <span id="first">var fruits = ["Apples", "Bananas", "Grapes"];<br></span>
+            <span>console.log(fruits.indexOf("Grapes"));<br></span>
+          </div>
+          
           <input type="radio" name="num4">Grapes<br>
           <input type="radio" name="num4">console.log(fruits.indexOf("Grapes"));<br>
           <input type="radio" name="num4" id="answer4">2<br>
@@ -101,7 +108,7 @@
     <p> Thank you for your time! :) </p> 
   </div>  
   
-  <img src="images/image2.png" alt="pic">
+  <!-- <img src="images/image2.png" alt="pic"> -->
 
       
 <script src="js/script.js"></script>
