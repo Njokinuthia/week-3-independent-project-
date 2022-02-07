@@ -58,11 +58,12 @@ span{
   width: 80%;
 }
 .clickHere{
-  margin: 2%;
-  padding: 2%;
-  border-radius: 50px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
   background-color: blueviolet;
   color: whitesmoke;
+  size: 50px;   
 }
  
 
