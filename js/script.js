@@ -22,7 +22,9 @@ function grade() {
 
   var answer = sum * 20;
 
-  document.write('Your score is' + ' ' + answer + '%');
+  document.write('Your score is');
+  document.write(answer + '%');
+ 
   result(answer);
 }
 
@@ -30,13 +32,13 @@ function grade() {
 function result(answer) {
 
   if (answer >= 80) {
-    document.write("excellent")
+    document.write("excellently passed")
   }
   else if (answer < 80 && answer >= 50) {
-    document.write(" You fairly passed")
+    document.write(" Fairly passed")
   }
   else if (answer < 50) {
-    document.write("poorly performed")
+    document.write("poorly performed - please repeat text")
   }
 
 }
