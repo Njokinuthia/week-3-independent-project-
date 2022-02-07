@@ -8,7 +8,8 @@
 ## Table of Content
 
 + [Description](#description)
-+ [Requirements](#requirements)
++ [Design](#design)
++ [Requirements](#requirements)+ 
 + [Technology Used](#technology-used)
 + [Reference](#reference)
 + [Licence](#licence)
@@ -16,6 +17,11 @@
 
 ## Description
 <p>This is a website page that hosts questions that students can click on to choose an answer, get their scored calculated and returned to them.</p>
+
+## Design
+Design linked below created by figma.
+
+https://www.figma.com/file/rNHLQzwDdPGkuhfMlNa9vh/Untitled?node-id=0%3A1
 
 ### Requirements
 To access the website page:
