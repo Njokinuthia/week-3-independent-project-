@@ -1,7 +1,7 @@
   body{    
     margin:auto; 
     height: auto;
-    background-color: beige;    
+    background-color:rgb(235, 222, 240);    
   }
   
   .header{
@@ -33,7 +33,7 @@
   border-radius: 50px;
   box-shadow: 20px; 
   padding: 1%; 
-  background-color: rgba(200, 231, 231, 0.986);
+  background-color: rgb(232, 207, 241);
   box
 }
 .code{
@@ -45,7 +45,6 @@ span{
   color:red;
   padding-left: 10%;  
 }
-
 
 .footer{
   text-align: center;
